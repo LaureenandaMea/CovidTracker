@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,66 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+/* body {
+  background-color: #fff;
 }
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.image {
+  width: 370px;
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 770px) {
+  .container {
+    margin: 0 10%;
+  }
+
+  .image {
+    width: 100%;
+  }
+} */
+
+.box1{ 
+  height:130px;
+  width:165px;
+  border-radius: 15px;
+  justify-content: ' center';
+  display:inline-block;
+  margin-left:10px;
+  background:rgb(99, 132, 148);
+  border:solid 3px black;
+}
+.box2{ 
+  height:130px;
+  width:165px;
+  border-radius: 15px;
+  justify-content: ' center';
+  display:inline-block;
+  margin-left:10px;
+  background:rgb(142, 201, 250);
+  border:solid 3px black;
+}
+
+.box3{ 
+  height:130px;
+  width:165px;
+  border-radius: 15px;
+  justify-content: ' center';
+  display:inline-block;
+  margin-left:10px;
+  background:rgb(39, 111, 194);
+  border:solid 3px black;
+}
+.main{
+  background-image: "https://padek.jawapos.com/wp-content/uploads/2020/04/kenali-istilah-covid-19-ini-agar-tak-panik-tanggapi-pemberitaan_m_182547.jpg";
+  
+}
+

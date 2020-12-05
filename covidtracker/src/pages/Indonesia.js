@@ -1,11 +1,33 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
+ import axios from "axios"
+ import '../App.css'
 
-const Indonesia = () => {
-    return (
-        <div>
-            <h1>Indonesia</h1>
-        </div>
-    );
-};
+ const Indonesia = () => {
+     const [perawatan, setPerawatan] = useState([]);
+     const [meninggal, setMeninggal] = useState([]);
+     const [sembuh, setSembuh] = useState([]);
+     useEffect(() => {
+         axios 
+         .get("https://indonesia-covid-19.mathdro.id/api")
+         .then((response) =>
 
-export default Indonesia;
+         {
+             setPerawatan(response.data.perawatan);
+             setMeninggal(response.data.meninggal);
+             setSembuh(response.data.sembuh);
+         })
+     }, []);
+
+    
+     return( 
+
+        
+         <div>
+             <p><font color="DarkSlateGrey"><b>Jumlah kasus seluruh Indonesia</b></font></p>
+             <h1 className ="box1">Positif {perawatan}</h1>
+             <h1 className ="box2">Meninggal {meninggal}</h1>
+             <h1 className ="box3">Sembuh {sembuh}</h1>
+         </div>
+     )
+ }
+ export default Indonesia;
