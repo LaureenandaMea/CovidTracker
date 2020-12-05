@@ -23,7 +23,7 @@
 
         
          <div>
-             <p><font color="DarkSlateGrey"><b>Jumlah kasus seluruh dunia</b></font></p>
+             <p><font color="DarkSlateGrey"><b>Jumlah Kasus Seluruh Dunia</b></font></p>
              <h1 className ="box1">Positif {confirmed}</h1>
              <h1 className ="box2">Meninggal {deaths}</h1>
              <h1 className ="box3">Sembuh {recovered}</h1>

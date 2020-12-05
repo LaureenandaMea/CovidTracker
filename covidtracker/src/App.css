@@ -61,6 +61,16 @@
     width: 100%;
   }
 } */
+.main{
+  background: url('https://mmc.tirto.id/image/otf/500x0/2020/09/16/ilustrasi-covid-19--istock--3_ratio-16x9.jpg');
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
 
 .box1{ 
   height:130px;
@@ -92,9 +102,5 @@
   margin-left:10px;
   background:rgb(39, 111, 194);
   border:solid 3px black;
-}
-.main{
-  background-image: "https://padek.jawapos.com/wp-content/uploads/2020/04/kenali-istilah-covid-19-ini-agar-tak-panik-tanggapi-pemberitaan_m_182547.jpg";
-  
 }
 

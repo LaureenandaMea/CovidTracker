@@ -23,7 +23,7 @@ import React, {useEffect, useState} from "react";
 
         
          <div>
-             <p><font color="DarkSlateGrey"><b>Jumlah kasus seluruh Indonesia</b></font></p>
+             <p><font color="DarkSlateGrey"><b>Jumlah Kasus Seluruh Indonesia</b></font></p>
              <h1 className ="box1">Positif {perawatan}</h1>
              <h1 className ="box2">Meninggal {meninggal}</h1>
              <h1 className ="box3">Sembuh {sembuh}</h1>
