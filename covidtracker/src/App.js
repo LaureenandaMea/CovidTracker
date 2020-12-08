@@ -34,7 +34,7 @@ const App = () =>{
     return (
         <center>
         <Router>
-            <div>
+            <div> 
               <h1> Covid Tracker </h1>
                 <nav>
                         <tr>

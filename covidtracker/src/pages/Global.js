@@ -18,17 +18,15 @@
          })
      }, []);
 
-    
      return( 
 
         
-         <div>
-             <p><font color="DarkSlateGrey"><b>Jumlah Kasus Seluruh Dunia</b></font></p>
-             <h1 className ="box1">Positif {confirmed}</h1>
-             <h1 className ="box2">Meninggal {deaths}</h1>
-             <h1 className ="box3">Sembuh {recovered}</h1>
-         </div>
-         
-     )
+        <div>
+            <p><font color="DarkSlateGrey"><b>Jumlah Kasus Seluruh Dunia</b></font></p>
+            <h1 className ="box1">Positif {confirmed}</h1>
+            <h1 className ="box2">Meninggal {deaths}</h1>
+            <h1 className ="box3">Sembuh {recovered}</h1>
+        </div>
+    )
  }
  export default Global
